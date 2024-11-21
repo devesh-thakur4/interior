@@ -1,0 +1,354 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+      height: 100%;
+    width: 100%;
+    background: url(https://plus.unsplash.com/premium_photo-1681031465676-995faaaac5bf?q=80&w=2044&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+}
+.layout{
+    height: 20%;
+    width: 80%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+.layout div img{
+padding-left: 10%;
+    height: 50px;
+    
+}
+
+section{
+padding-left: 5%;
+
+
+}
+section a{
+padding: 10px;
+text-decoration: none;
+color: black;
+font-size: 20px;  
+}
+
+.button{
+padding-left: 20%;
+
+
+
+}
+.button #A{
+text-decoration: none;
+color:black;
+font-size: 18px;
+
+}
+
+
+
+.button button {
+
+padding: 10px 20px 10px 20px ;
+margin-left: 20px;
+border: none;
+border-radius: 5px;
+box-shadow: -1px -1px 1px 1px rgb(25, 24, 24);
+
+}
+button a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.content{
+padding-left:20%;
+padding-top: 2%;
+
+}
+.content h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    
+}
+.content p{
+    font-size: 20px;
+    
+}
+.content button{
+   margin-top: 20px;
+   padding: 15px 20px 20px 15px;
+   border: none;
+   border-radius: 5px;
+   background-color: rgb(230, 165, 81);
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 5%;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.icon i{
+    font-size: 40px;
+    
+}
+
+.footer{
+    padding-left: 20%;
+    padding-top: 9%;
+    display: flex;
+    gap: 30px;
+    
+}
+.page2{
+width: 100%;
+display: flex;
+
+}
+ .our{
+    padding-left:7% ;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.page2 div{
+margin-top: 2%;
+width: 100%;
+
+padding-left: 40px;
+align-items: center;
+text-align: center;
+
+}
+div img{
+  width: 90%;
+  margin-top: 10px;
+  padding-left: 20px;
+
+}
+.page3{
+width: 100%;
+height: 90%;
+display: flex;
+
+align-items: center;
+flex-direction: row;
+padding-left: 15%;
+
+} 
+
+ .box1{
+height: 600px;
+width: 500px;
+
+} 
+
+.box1 img{
+   width: 90%; 
+   
+ margin-left: 45px;
+}
+
+.box2{
+    height: 500px;
+    width: 800px;
+       
+ }
+ .box2 h1{
+    padding-top: 5%;
+    font-size: 40px;
+ }
+ .box2 p{
+padding-top: 10px;
+font-size: 18px;
+
+ }
+
+.box2 span p{
+padding-top: 10%;
+
+}
+
+.page4{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10%;
+ 
+    padding-left: 5%;
+
+
+}
+.page4 .contentbox{
+height: 450px;
+width: 400px;
+
+
+}
+
+.contentbox h3{
+    font-size: 30px;
+
+}
+.contentbox p{
+    padding-top: 20px;
+    font-weight: 500;
+}
+.contentbox button{
+    padding:15px 30px 15px 30px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(228, 132, 14);
+  margin-top: 20px;
+}
+
+
+.page4 .imgbox{
+  height: 500px;
+  width: 1000px;
+  
+  display: flex;
+  flex-direction: row;
+  
+}
+.imgbox  div{
+
+
+}
+.imgbox div img{
+    height: 50%;
+}
+
+#lorem{
+    padding-left: 10%;
+}
+.page5{
+    width: 100%;
+    height: 50%;
+    display: flex;
+   align-items: center;
+   padding-left: 10%;
+   
+}
+.page5 .page5box1{
+    height: 400px;
+    width: 600px;
+    
+    display: flex;
+}
+
+.page5 .page5box2{
+    height: 400px;
+    width: 600px;
+   
+    display: flex;
+}
+.page5box1 img{
+    width: 45%;
+}
+.page5box2 img{
+    width: 43%;
+}
+.page5box1 span h1{
+    padding-top: 20px;
+
+}
+
+.page5box1 span p{
+    padding-top: 20px;
+   
+}
+
+
+.page5box2 span h1{
+    padding-top: 20px;
+
+}
+
+.page5box2 span p {
+    padding-top: 20px;
+
+}
+
+.Footer{
+    width: 100%;
+    height: 80%;
+   background-color: cadetblue;
+    display: flex;
+    gap: 20px;
+    padding-top: 20%;
+
+}
+.Footer .lines{
+
+height: 300px;
+width: 500px;
+
+}
+
+.Footer .lines h1{
+padding-top: 20px;
+    padding-bottom: 40%;
+}
+
+.Footer .list{
+    height: 300px;
+    width: 500px;
+   
+    
+ }
+.Footer .list p{
+    padding-top: 20%;
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+
+
+
+    
+.Footer .address{
+
+    height: 300px;
+    width: 500px;
+    
+     }
+
+       
+.Footer .address a{
+text-decoration: none;
+font-size: 20px;
+color: black;
+
+  }
+ 
+     
+.Footer .address p{
+    padding-top: 20px;
+
+     }
+        
+.Footer .address .addressicon{
+    padding-top: 40px;
+    font-size: 30px;
+
+     }
+     
